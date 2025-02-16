@@ -1,2 +1,2 @@
 # OS
-Répository do projet d'OS
+Répository du projet d'OS
