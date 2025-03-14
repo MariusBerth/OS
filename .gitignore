@@ -1,6 +1,9 @@
 # Fichiers swap de Vim
 *~
 
+# Fichiers temporaires d'Emacs
+*#
+
 # Fichiers compilés spécifiques du projet
 myos.*
 isodir
