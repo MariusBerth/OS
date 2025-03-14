@@ -1,6 +1,10 @@
 # Fichiers swap de Vim
 *~
 
+# Fichiers compilés spécifiques du projet
+myos.*
+isodir
+
 # Prerequisites
 *.d
 

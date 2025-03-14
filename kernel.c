@@ -1,12 +1,3 @@
-ltiboot 'flag' field */
-  6 .set MAGIC,    0x1BADB002       /* 'magic number' lets bootloader find the header */
-  5 .set CHECKSUM, -(MAGIC + FLAGS) /* checksum of above, to prove we are multiboot */
-  4 
-  3 .set MODE_TYPE, 0               /* dictates the graphics mode; here is for linear */
-  2 .set WIDTH, 1024                /* requested width of display */
-  1 .set HEIGHT, 768                /* requested height of display */
-13  .set DEPTH, 32                  /* requested bits per pixel */
-  1 
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
