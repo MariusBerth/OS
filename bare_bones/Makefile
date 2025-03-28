@@ -25,6 +25,7 @@ clean:
 	rm -rf isodir
 	rm -f kernel.o
 	rm -f myos.bin
+	rm -f myos.iso
 	rm -f boot.o
 
 .PHONY: clean simul test_kernel
