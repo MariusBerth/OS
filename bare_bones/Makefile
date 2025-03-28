@@ -20,3 +20,11 @@ boot.o: boot.s
 kernel.o: kernel.c
 	i686-elf-gcc -c kernel.c -o kernel.o -std=gnu99\
 	       	-ffreestanding -O2 -Wall -Wextra
+
+clean:
+	rm -rf isodir
+	rm -f kernel.o
+	rm -f myos.bin
+	rm -f boot.o
+
+.PHONY: clean simul test_kernel
