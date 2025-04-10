@@ -1,0 +1,3 @@
+[submodule "meaty-skeleton2"]
+	path = meaty-skeleton
+	url = git@github.com:MariusBerth/meaty_skeleton-copy-.git
