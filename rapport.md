@@ -74,15 +74,19 @@ driver pci: https://wiki.osdev.org/PCI
 driver rtl8139: https://github.com/arduino/uboot-yun/blob/master/drivers/rtl8139.c,
   https://github.com/TritonDataCenter/syslinux/blob/master/gpxe/src/drivers/net/rtl8139.c
   https://wiki.osdev.org/RTL8139
-  https://www.qemu.org/docs/master/system/devices/net.html (Pour l'invoation de Qemu)  
+  https://www.qemu.org/docs/master/system/devices/net.html (Pour l'inovation de Qemu)  
 
 driver clavier 
-##TODO: A remplir
-
+la correspondance scancode à caractère pour un clavier querty, 
+et le port du clavier proviennent de 
+https://wiki.osdev.org/PS/2_Keyboard
+https://wiki.osdev.org/I8042_PS/2_Controller
 
 Dans le répertoire meaty-skeleton/kernel/shell se situe le code principal
 du shell ainsi que celui de ses fonctions:
-##TODO: A remplir 
+Les differentes fonctions peuvent être affichées via la commande help et 
+servent de démonstration des fonctionalités de l'os,
+comme l'affichage graphique et la communication en reseau
 
 
 Finalement, le dossier meaty-skeleton/kernel/games comporte un seul
